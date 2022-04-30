@@ -69,6 +69,6 @@ public class BurgerParametrizedTest {
 
     @Test
     public void getPriceReturnCorrectValue() {
-        Assert.assertEquals("receipt is incorrect", expectedPrice, burger.getPrice(), 0.0f);
+        Assert.assertEquals("price is incorrect", expectedPrice, burger.getPrice(), 0.0f);
     }
 }
